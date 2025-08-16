@@ -14,7 +14,7 @@ typedef struct Arena
 } arena;
 
 arena arena_alloc(u64);
-void arena_release(arena *);
+void  arena_release(arena *);
 
 void *arena_push(arena *, u64);
 
@@ -25,7 +25,7 @@ void *arena_push(arena *, u64);
 #define push_arr(arena, type, length) (type *)arena_push(arena, sizeof(type) * len);
 
 void arena_pop(arena *, u64);
-u64 arena_pos(arena *);
+u64  arena_pos(arena *);
 void arena_clear(arena *);
 
 #endif // ARENA
