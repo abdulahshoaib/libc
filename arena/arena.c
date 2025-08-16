@@ -46,3 +46,29 @@ arena_push(arena *a, u64 size)
   a->offset += size;
   return ptr;
 }
+
+/*
+   =======================
+    Poping Mem from arena
+   =======================
+   NOTE(abdullah): when ever you pop arena always set
+   the pointer using that to 0
+*/
+void
+arena_pop(arena *a, u64 size)
+{
+  if (size > a->offset)
+    return;
+  a->offset -= size;
+}
+
+/*
+   ============================
+    Get Allocated Mem of arena
+   ============================
+*/
+u64
+arena_pos(arena *a)
+{
+  return a->offset;
+}
