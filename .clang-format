@@ -7,3 +7,5 @@ AlwaysBreakAfterReturnType: AllDefinitions
 BreakBeforeBraces: Allman
 AllowShortFunctionsOnASingleLine: None
 ColumnLimit: 0
+
+AlignConsecutiveDeclarations: AcrossEmptyLinesAndComments

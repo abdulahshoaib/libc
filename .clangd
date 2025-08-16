@@ -4,3 +4,4 @@ CompileFlags:
     - -I.
     - -Iarena
     - -I../types
+    - -I../errors
