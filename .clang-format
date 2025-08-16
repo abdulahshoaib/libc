@@ -1,0 +1,9 @@
+BasedOnStyle: LLVM
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+
+AlwaysBreakAfterReturnType: AllDefinitions
+BreakBeforeBraces: Allman
+AllowShortFunctionsOnASingleLine: None
+ColumnLimit: 0
