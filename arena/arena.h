@@ -26,5 +26,6 @@ void *arena_push(arena *, u64);
 
 void arena_pop(arena *, u64);
 u64 arena_pos(arena *);
+void arena_clear(arena *);
 
 #endif // ARENA

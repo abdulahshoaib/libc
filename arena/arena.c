@@ -72,3 +72,15 @@ arena_pos(arena *a)
 {
   return a->offset;
 }
+
+
+/*
+   =================
+    Clear the Arena
+   =================
+*/
+void
+arena_clear(arena *a)
+{
+  a->offset = 0;
+}
