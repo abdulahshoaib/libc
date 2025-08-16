@@ -2,7 +2,7 @@
 #define SLAB
 
 #include "arena.h"
-#include "errors/errors.h"
+#include "errors.h"
 #include <stdlib.h>
 
 typedef struct
